@@ -21,5 +21,5 @@
   $("#catPhone").textContent = profile.phone;
   $("#callBtn").href = "tel:" + profile.phone.replace(/[^\d+]/g, "");
   $("#waBtn").href = "https://wa.me/" + profile.whatsapp +
-    "?text=" + encodeURIComponent("Hi, I found your cat. Please contact me.");
+    "?text=" + encodeURIComponent("Hi! I found your cat. Please contact me so we can get them home safely. 🐾");
 })();
