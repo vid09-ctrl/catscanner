@@ -41,7 +41,7 @@
       context.fillRect(0, 0, canvas.width, canvas.height);
       context.drawImage(image, 0, 0, canvas.width, canvas.height);
       const link = document.createElement("a");
-      link.download = "mochi-lost-cat-qr.png";
+      link.download = "Yuki-lost-cat-qr.png";
       link.href = canvas.toDataURL("image/png");
       link.click();
     };

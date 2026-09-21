@@ -1,11 +1,11 @@
 (function () {
   const profile = {
-    name: "Mochi",
+    name: "Yuki",
     parent: "Vidya",
     phone: "+919876543210",
     whatsapp: "919876543210",
-    city: "Mumbai, Maharashtra",
-    photo: "https://picsum.photos/seed/mochi-cat/640/640.jpg"
+    city: "Mira road",
+    photo: "https://picsum.photos/seed/Yuki-cat/640/640.jpg"
   };
   const $ = function (selector) { return document.querySelector(selector); };
 
