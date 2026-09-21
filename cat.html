@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>I'm Lost — Please Help Me Get Home</title>
+  <meta name="description" content="A lost cat's contact profile.">
+  <meta name="theme-color" content="#FFF7EE">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="page profile-page">
+    <header class="profile-hero">
+      <p class="eyebrow"><svg class="icon"><use href="#paw"/></svg> Collar tag profile</p>
+      <h1>I'M LOST 😿</h1>
+      <p>Please contact my parents! <span aria-hidden="true">❤️</span></p>
+    </header>
+
+    <main class="profile-card" id="profileCard">
+      <div class="profile-photo"><img id="catPhoto" alt=""></div>
+      <h2 id="catName"></h2>
+      <div class="profile-details">
+        <p><strong>Cat Name</strong><span id="catNameDetail"></span></p>
+        <p><strong>Parent</strong><span id="parentName"></span></p>
+        <p><strong>Location</strong><span id="catCity"></span></p>
+        <p><strong>Phone</strong><span id="catPhone"></span></p>
+      </div>
+      <div class="profile-actions">
+        <a class="btn btn-call" id="callBtn" href="#">📞 CALL MY PARENT</a>
+        <a class="btn btn-wa" id="waBtn" href="#" target="_blank" rel="noopener">💬 WHATSAPP MY PARENT</a>
+      </div>
+      <p class="owner-message" id="ownerMessage" hidden></p>
+      <p class="thank-you">Thank you for helping me get home! ❤️</p>
+    </main>
+
+    <section class="missing-profile" id="missingProfile" hidden>
+      <h2>This cat profile link is incomplete.</h2>
+      <p>Please ask the owner to generate a new QR tag.</p>
+      <a class="btn btn-call" href="index.html">Create a new cat QR</a>
+    </section>
+  </div>
+
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="paw" viewBox="0 0 52 56"><ellipse cx="9" cy="16" rx="6" ry="8.5" transform="rotate(-16 9 16)"/><ellipse cx="20.5" cy="8" rx="6" ry="8.5" transform="rotate(-5 20.5 8)"/><ellipse cx="33.5" cy="8" rx="6" ry="8.5" transform="rotate(5 33.5 8)"/><ellipse cx="45" cy="16" rx="6" ry="8.5" transform="rotate(16 45 16)"/><path d="M27 25C34.5 25 43 31 43 40c0 8.5-6.5 13.5-13.5 13.5-1.5 0-2.1-1-2.5-2.1-.4 1.1-1 2.1-2.5 2.1C17.5 53.5 11 48.5 11 40c0-9 8.5-15 16-15Z"/></symbol>
+  </svg>
+  <script src="js/common.js"></script>
+  <script src="js/profile.js"></script>
+</body>
+</html>
